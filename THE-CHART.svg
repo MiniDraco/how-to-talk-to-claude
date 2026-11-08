@@ -1,0 +1,338 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="980" viewBox="0 0 1420 980" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9z" fill="#555"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1 1L9 5L1 9z" fill="#cc1111"/></marker>
+</defs>
+<rect width="1420" height="980" fill="#ffffff"/>
+<style>
+.n{stroke-width:2}
+.t{font-size:11.5px;fill:#1a1a1a}
+.tb{font-size:12px;fill:#1a1a1a;font-weight:600}
+.ts{font-size:10px;fill:#555}
+.e{stroke:#555;stroke-width:1.6;fill:none}
+.er{stroke:#cc1111;stroke-width:1.8;fill:none}
+.lbl{font-size:9.5px;fill:#444}
+.hand{font-size:15px;fill:#333;font-style:italic}
+</style>
+
+<polygon points="92,14 106,54 148,54 114,79 127,119 92,94 57,119 70,79 36,54 78,54" fill="#e8f2fb" stroke="#1f6fb5" class="n"/>
+<text class="tb" x="92" y="62" text-anchor="middle" transform="rotate(-16 92 62)">PROMPT</text>
+<text class="tb" x="92" y="76" text-anchor="middle" transform="rotate(-16 92 76)">START</text>
+
+<rect x="16" y="140" width="168" height="46" rx="3" fill="#eef7ea" stroke="#2e6b2e" class="n"/>
+<text class="t" x="100" y="160" text-anchor="middle">Do you know what you</text>
+<text class="t" x="100" y="175" text-anchor="middle">actually want?</text>
+
+<rect x="16" y="216" width="168" height="46" rx="3" fill="#eef7ea" stroke="#2e6b2e" class="n"/>
+<text class="t" x="100" y="236" text-anchor="middle">Do you know HOW it</text>
+<text class="t" x="100" y="251" text-anchor="middle">should be built?</text>
+
+<rect x="16" y="292" width="168" height="46" rx="3" fill="#eef7ea" stroke="#2e6b2e" class="n"/>
+<text class="t" x="100" y="312" text-anchor="middle">Did you name a real</text>
+<text class="t" x="100" y="327" text-anchor="middle">thing to beat?</text>
+
+<rect x="16" y="368" width="168" height="46" rx="3" fill="#eef7ea" stroke="#2e6b2e" class="n"/>
+<text class="t" x="100" y="388" text-anchor="middle">Did you say when to</text>
+<text class="t" x="100" y="403" text-anchor="middle">STOP?</text>
+
+<rect x="16" y="444" width="168" height="46" rx="3" fill="#eef7ea" stroke="#2e6b2e" class="n"/>
+<text class="t" x="100" y="464" text-anchor="middle">Did you mark which</text>
+<text class="t" x="100" y="479" text-anchor="middle">bits you're guessing?</text>
+
+<line class="e" x1="92" y1="119" x2="92" y2="138" marker-end="url(#a)"/>
+<line class="e" x1="100" y1="186" x2="100" y2="214" marker-end="url(#a)"/>
+<line class="e" x1="100" y1="262" x2="100" y2="290" marker-end="url(#a)"/>
+<line class="e" x1="100" y1="338" x2="100" y2="366" marker-end="url(#a)"/>
+<line class="e" x1="100" y1="414" x2="100" y2="442" marker-end="url(#a)"/>
+<text class="lbl" x="105" y="200">Yes</text>
+<text class="lbl" x="105" y="276">Yes</text>
+<text class="lbl" x="105" y="352">Yes</text>
+<text class="lbl" x="105" y="428">Yes</text>
+
+<rect x="212" y="140" width="164" height="46" rx="3" fill="#e8f2fb" stroke="#1f6fb5" class="n"/>
+<text class="t" x="294" y="160" text-anchor="middle">"Interview me. Dig into</text>
+<text class="t" x="294" y="175" text-anchor="middle">the hard parts."  45</text>
+
+<rect x="212" y="216" width="164" height="46" rx="3" fill="#fdf6e0" stroke="#c8a415" class="n"/>
+<text class="t" x="294" y="236" text-anchor="middle">Then DON'T spec it.</text>
+<text class="t" x="294" y="251" text-anchor="middle">Say so out loud.  5</text>
+
+<rect x="212" y="292" width="164" height="46" rx="3" fill="#fdf6e0" stroke="#c8a415" class="n"/>
+<text class="t" x="294" y="312" text-anchor="middle">Name one, scrub!</text>
+<text class="t" x="294" y="327" text-anchor="middle">"AAA" isn't a bar.  32</text>
+
+<rect x="212" y="368" width="164" height="46" rx="3" fill="#fdeaea" stroke="#cc1111" class="n"/>
+<text class="t" x="294" y="384" text-anchor="middle">Then it stops when it</text>
+<text class="t" x="294" y="398" text-anchor="middle">LOOKS done. That's</text>
+<text class="t" x="294" y="412" text-anchor="middle">the median.  31</text>
+
+<rect x="212" y="444" width="164" height="46" rx="3" fill="#fdf6e0" stroke="#c8a415" class="n"/>
+<text class="t" x="294" y="464" text-anchor="middle">It'll build your blind</text>
+<text class="t" x="294" y="479" text-anchor="middle">spot. Faithfully.</text>
+
+<line class="e" x1="184" y1="163" x2="210" y2="163" marker-end="url(#a)"/>
+<line class="e" x1="184" y1="239" x2="210" y2="239" marker-end="url(#a)"/>
+<line class="e" x1="184" y1="315" x2="210" y2="315" marker-end="url(#a)"/>
+<line class="e" x1="184" y1="391" x2="210" y2="391" marker-end="url(#a)"/>
+<line class="e" x1="184" y1="467" x2="210" y2="467" marker-end="url(#a)"/>
+<text class="lbl" x="188" y="158">No</text>
+<text class="lbl" x="188" y="234">Nope</text>
+<text class="lbl" x="188" y="310">No</text>
+<text class="lbl" x="188" y="386">No</text>
+<text class="lbl" x="188" y="462">Uh...</text>
+
+<path class="e" d="M376 163 L390 163 L390 176 L396 176" marker-end="url(#a)"/>
+<path class="e" d="M376 239 L396 239" marker-end="url(#a)"/>
+<path class="e" d="M376 315 L390 315 L390 250 L396 250" marker-end="url(#a)"/>
+<path class="e" d="M376 391 L386 391 L386 254 L396 254" marker-end="url(#a)"/>
+<path class="e" d="M376 467 L382 467 L382 258 L396 258" marker-end="url(#a)"/>
+
+<rect x="252" y="18" width="150" height="40" rx="3" fill="#ffffff" stroke="#333" class="n"/>
+<text class="t" x="327" y="42" text-anchor="middle">"I'll just wing it"</text>
+<rect x="432" y="18" width="130" height="40" rx="3" fill="#ffffff" stroke="#333" class="n"/>
+<text class="t" x="497" y="42" text-anchor="middle">Sure, go ahead</text>
+<polygon points="668,10 728,10 756,38 756,66 728,94 668,94 640,66 640,38" fill="#fdeaea" stroke="#cc1111" stroke-width="3"/>
+<text class="t" x="698" y="44" text-anchor="middle">That's the prompt,</text>
+<text class="t" x="698" y="59" text-anchor="middle">not the model.</text>
+<line class="e" x1="402" y1="38" x2="430" y2="38" marker-end="url(#a)"/>
+<line class="e" x1="562" y1="46" x2="638" y2="46" marker-end="url(#a)"/>
+<text class="lbl" x="568" y="41">but it's wrong!</text>
+<path class="e" d="M100 138 L100 128 L240 128 L240 38 L250 38" marker-end="url(#a)"/>
+<text class="lbl" x="128" y="124">can't be bothered</text>
+
+<rect x="398" y="150" width="176" height="52" rx="3" fill="#faece7" stroke="#993c1d" stroke-width="2.5"/>
+<text class="tb" x="486" y="170" text-anchor="middle">Teach-back</text>
+<text class="ts" x="486" y="185" text-anchor="middle">plain words, no code yet</text>
+<text class="ts" x="486" y="197" text-anchor="middle">until YOU understand  15</text>
+
+<rect x="398" y="222" width="176" height="46" rx="3" fill="#faece7" stroke="#993c1d" stroke-width="2.5"/>
+<text class="tb" x="486" y="241" text-anchor="middle">Schematic it to a file</text>
+<text class="ts" x="486" y="257" text-anchor="middle">and hand you a copy  14</text>
+
+<rect x="398" y="288" width="176" height="46" rx="3" fill="#faece7" stroke="#993c1d" stroke-width="2.5"/>
+<text class="tb" x="486" y="307" text-anchor="middle">Name the boundary</text>
+<text class="ts" x="486" y="323" text-anchor="middle">what enters and leaves  16</text>
+
+<rect x="398" y="354" width="176" height="46" rx="3" fill="#fdf6e0" stroke="#c8a415" class="n"/>
+<text class="tb" x="486" y="373" text-anchor="middle">Probes before features</text>
+<text class="ts" x="486" y="389" text-anchor="middle">build the ruler first  18</text>
+
+<rect x="398" y="420" width="176" height="46" rx="3" fill="#fdf6e0" stroke="#c8a415" class="n"/>
+<text class="tb" x="486" y="439" text-anchor="middle">One shared contract file</text>
+<text class="ts" x="486" y="455" text-anchor="middle">so siblings agree  41</text>
+
+<line class="e" x1="486" y1="202" x2="486" y2="220" marker-end="url(#a)"/>
+<line class="e" x1="486" y1="268" x2="486" y2="286" marker-end="url(#a)"/>
+<line class="e" x1="486" y1="334" x2="486" y2="352" marker-end="url(#a)"/>
+<line class="e" x1="486" y1="400" x2="486" y2="418" marker-end="url(#a)"/>
+
+<polygon points="632,142 700,120 768,142 768,196 700,218 632,196" fill="#f6eaf1" stroke="#7b2d5e" stroke-width="2.5"/>
+<text class="tb" x="700" y="163" text-anchor="middle">Fan out — nested</text>
+<text class="ts" x="700" y="178" text-anchor="middle">and let those fan out</text>
+<text class="ts" x="700" y="191" text-anchor="middle">again  41</text>
+
+<rect x="632" y="240" width="136" height="46" rx="3" fill="#f6eaf1" stroke="#7b2d5e" stroke-width="2.5"/>
+<text class="tb" x="700" y="259" text-anchor="middle">Every node loops</text>
+<text class="ts" x="700" y="275" text-anchor="middle">to its own bar  6, 31</text>
+
+<rect x="632" y="308" width="136" height="46" rx="3" fill="#f6eaf1" stroke="#7b2d5e" stroke-width="2.5"/>
+<text class="tb" x="700" y="327" text-anchor="middle">Its own critic</text>
+<text class="ts" x="700" y="343" text-anchor="middle">never the maker  20</text>
+
+<rect x="632" y="376" width="136" height="46" rx="3" fill="#f6eaf1" stroke="#7b2d5e" stroke-width="2.5"/>
+<text class="tb" x="700" y="395" text-anchor="middle">Prove by running it</text>
+<text class="ts" x="700" y="411" text-anchor="middle">paste the output  19</text>
+
+<rect x="632" y="444" width="136" height="46" rx="3" fill="#f6eaf1" stroke="#7b2d5e" stroke-width="2.5"/>
+<text class="tb" x="700" y="461" text-anchor="middle">Blind compare</text>
+<text class="ts" x="700" y="476" text-anchor="middle">real file, swapped order</text>
+<text class="ts" x="700" y="486" text-anchor="middle">21</text>
+
+<line class="e" x1="574" y1="443" x2="600" y2="443"/>
+<path class="e" d="M600 443 L610 443 L610 169 L630 169" marker-end="url(#a)"/>
+<line class="e" x1="700" y1="218" x2="700" y2="238" marker-end="url(#a)"/>
+<line class="e" x1="700" y1="286" x2="700" y2="306" marker-end="url(#a)"/>
+<line class="e" x1="700" y1="354" x2="700" y2="374" marker-end="url(#a)"/>
+<line class="e" x1="700" y1="422" x2="700" y2="442" marker-end="url(#a)"/>
+
+<rect x="586" y="524" width="196" height="128" rx="3" fill="#f4f4f4" stroke="#999" stroke-dasharray="5 4" stroke-width="1.5"/>
+<text class="tb" x="684" y="544" text-anchor="middle">KEEP THESE ON COOLDOWN</text>
+<text class="ts" x="684" y="562" text-anchor="middle">Paths, not pastes</text>
+<text class="ts" x="684" y="577" text-anchor="middle">Errors verbatim, full trace</text>
+<text class="ts" x="684" y="592" text-anchor="middle">List your dead ends</text>
+<text class="ts" x="684" y="607" text-anchor="middle">Reduce the data locally</text>
+<text class="ts" x="684" y="622" text-anchor="middle">Checkpoint to files</text>
+<text class="ts" x="684" y="637" text-anchor="middle">Prune the always-on file</text>
+<path class="e" d="M660 522 L660 508 L620 508" stroke-dasharray="4 3"/>
+
+<polygon points="828,144 900,122 972,144 972,198 900,220 828,198" fill="#eef7ea" stroke="#2e6b2e" stroke-width="2.5"/>
+<text class="tb" x="900" y="166" text-anchor="middle">Did it clear</text>
+<text class="tb" x="900" y="182" text-anchor="middle">the bar?</text>
+<text class="ts" x="900" y="196" text-anchor="middle">the one YOU set</text>
+
+<rect x="828" y="252" width="144" height="46" rx="3" fill="#eef7ea" stroke="#2e6b2e" class="n"/>
+<text class="t" x="900" y="271" text-anchor="middle">Still gaining each</text>
+<text class="t" x="900" y="286" text-anchor="middle">pass?</text>
+
+<rect x="828" y="320" width="144" height="52" rx="3" fill="#fdeaea" stroke="#cc1111" stroke-width="2.5"/>
+<text class="t" x="900" y="338" text-anchor="middle">Are the acceptance</text>
+<text class="t" x="900" y="352" text-anchor="middle">criteria getting</text>
+<text class="tb" x="900" y="366" text-anchor="middle">SMALLER?</text>
+
+<rect x="828" y="394" width="144" height="46" rx="3" fill="#eef7ea" stroke="#2e6b2e" class="n"/>
+<text class="t" x="900" y="413" text-anchor="middle">Any work units</text>
+<text class="t" x="900" y="428" text-anchor="middle">left?</text>
+
+<line class="e" x1="768" y1="467" x2="800" y2="467"/>
+<path class="e" d="M800 467 L812 467 L812 171 L826 171" marker-end="url(#a)"/>
+<line class="e" x1="900" y1="220" x2="900" y2="250" marker-end="url(#a)"/>
+<text class="lbl" x="905" y="240">No</text>
+<line class="e" x1="900" y1="298" x2="900" y2="318" marker-end="url(#a)"/>
+<text class="lbl" x="905" y="313">No</text>
+<line class="e" x1="900" y1="372" x2="900" y2="392" marker-end="url(#a)"/>
+<text class="lbl" x="905" y="387">No</text>
+
+<path class="e" d="M828 275 L798 275 L798 263 L770 263" marker-end="url(#a)"/>
+<text class="lbl" x="786" y="256">grind on</text>
+
+<rect x="1010" y="252" width="150" height="52" rx="3" fill="#fdf0e2" stroke="#e08b3a" stroke-width="2.5"/>
+<text class="tb" x="1085" y="271" text-anchor="middle">Bank it. Report</text>
+<text class="tb" x="1085" y="286" text-anchor="middle">where the ceiling was</text>
+<text class="ts" x="1085" y="299" text-anchor="middle">budget spent  33</text>
+
+<polygon points="1010,318 1160,318 1160,382 1010,382" fill="#fdeaea" stroke="#cc1111" stroke-width="3"/>
+<text class="tb" x="1085" y="337" text-anchor="middle">SOFT HEAT DEATH</text>
+<text class="ts" x="1085" y="352" text-anchor="middle">every fix is graded against</text>
+<text class="ts" x="1085" y="365" text-anchor="middle">your spec, not reality</text>
+<text class="ts" x="1085" y="377" text-anchor="middle">iterating CANNOT fix this  28</text>
+
+<rect x="1010" y="394" width="150" height="46" rx="3" fill="#fdf6e0" stroke="#c8a415" class="n"/>
+<text class="tb" x="1085" y="413" text-anchor="middle">Next work unit</text>
+<text class="ts" x="1085" y="429" text-anchor="middle">back to the fan</text>
+
+<line class="e" x1="972" y1="275" x2="1008" y2="275" marker-end="url(#a)"/>
+<text class="lbl" x="976" y="270">No</text>
+<line class="er" x1="972" y1="350" x2="1008" y2="350" marker-end="url(#ar)"/>
+<text class="lbl" x="976" y="345">Yes</text>
+<line class="e" x1="972" y1="417" x2="1008" y2="417" marker-end="url(#a)"/>
+<text class="lbl" x="976" y="412">Yes</text>
+<path class="e" d="M1085 394 L1085 386 L1190 386 L1190 102 L700 102 L700 118" marker-end="url(#a)"/>
+<path class="er" d="M1010 340 L992 340 L992 114 L486 114 L486 148" marker-end="url(#ar)"/>
+<text class="lbl" x="404" y="134">the spec was wrong — restart the teach-back</text>
+<line class="e" x1="1085" y1="304" x2="1085" y2="314" marker-end="url(#a)"/>
+
+<rect x="1010" y="462" width="150" height="46" rx="3" fill="#f6eaf1" stroke="#7b2d5e" stroke-width="2.5"/>
+<text class="tb" x="1085" y="481" text-anchor="middle">Reconcile vs contract</text>
+<text class="ts" x="1085" y="497" text-anchor="middle">siblings couldn't see</text>
+
+<rect x="1010" y="528" width="150" height="46" rx="3" fill="#faece7" stroke="#993c1d" stroke-width="2.5"/>
+<text class="tb" x="1085" y="547" text-anchor="middle">E2E on REAL data</text>
+<text class="ts" x="1085" y="563" text-anchor="middle">through the boundary</text>
+
+<rect x="1010" y="594" width="150" height="46" rx="3" fill="#fdf0e2" stroke="#e08b3a" stroke-width="2.5"/>
+<text class="tb" x="1085" y="613" text-anchor="middle">Harden the edges</text>
+<text class="ts" x="1085" y="629" text-anchor="middle">wrong, absent, hostile, slow</text>
+
+<path class="e" d="M900 440 L900 485 L1008 485" marker-end="url(#a)"/>
+<text class="lbl" x="905" y="462">No — all done</text>
+<line class="e" x1="1085" y1="508" x2="1085" y2="526" marker-end="url(#a)"/>
+<line class="e" x1="1085" y1="574" x2="1085" y2="592" marker-end="url(#a)"/>
+
+<rect x="1216" y="120" width="180" height="52" rx="3" fill="#ffffff" stroke="#333" class="n"/>
+<text class="t" x="1306" y="140" text-anchor="middle">Sweet. On to the next</text>
+<text class="t" x="1306" y="155" text-anchor="middle">feature, and write down</text>
+<text class="t" x="1306" y="169" text-anchor="middle">what we learned.  39</text>
+<polygon points="1240,594 1330,594 1330,580 1366,617 1330,654 1330,640 1240,640" fill="#1f6fb5"/>
+<path class="e" d="M1306 594 L1306 174" marker-end="url(#a)"/>
+<line class="e" x1="1160" y1="617" x2="1238" y2="617" marker-end="url(#a)"/>
+
+<text class="hand" x="1218" y="52" transform="rotate(-6 1218 52)">SHIPPED!</text>
+<path class="e" d="M1316 34 L1332 22" stroke="#333"/>
+<path class="e" d="M1338 50 L1360 50" stroke="#333"/>
+<path class="e" d="M1322 68 L1336 80" stroke="#333"/>
+
+<polygon points="336,690 396,690 424,718 424,746 396,774 336,774 308,746 308,718" fill="#fdeaea" stroke="#cc1111" stroke-width="3"/>
+<text class="tb" x="366" y="722" text-anchor="middle">IT'S STUCK</text>
+<text class="ts" x="366" y="738" text-anchor="middle">nothing is working</text>
+<text class="ts" x="366" y="751" text-anchor="middle">and I'm annoyed</text>
+
+<rect x="454" y="700" width="120" height="46" rx="3" fill="#eef7ea" stroke="#2e6b2e" class="n"/>
+<text class="t" x="514" y="719" text-anchor="middle">Two fix passes</text>
+<text class="t" x="514" y="734" text-anchor="middle">done?</text>
+
+<rect x="454" y="800" width="120" height="46" rx="3" fill="#ffffff" stroke="#333" class="n"/>
+<text class="t" x="514" y="819" text-anchor="middle">Fine, one more</text>
+<text class="t" x="514" y="834" text-anchor="middle">go then</text>
+
+<rect x="614" y="700" width="150" height="52" rx="3" fill="#fdf0e2" stroke="#e08b3a" stroke-width="2.5"/>
+<text class="tb" x="689" y="719" text-anchor="middle">STOP. Research.</text>
+<text class="ts" x="689" y="734" text-anchor="middle">read the source, run a probe</text>
+<text class="ts" x="689" y="746" text-anchor="middle">escalate the TOOL  2, 27</text>
+
+<rect x="810" y="700" width="140" height="46" rx="3" fill="#fdeaea" stroke="#cc1111" stroke-width="2.5"/>
+<text class="t" x="880" y="719" text-anchor="middle">Third approach</text>
+<text class="t" x="880" y="734" text-anchor="middle">also dead?</text>
+
+<rect x="810" y="800" width="140" height="46" rx="3" fill="#f8dede" stroke="#8b0000" stroke-width="3"/>
+<text class="tb" x="880" y="819" text-anchor="middle">Fresh session.</text>
+<text class="ts" x="880" y="835" text-anchor="middle">carry a summary  30</text>
+
+<rect x="990" y="800" width="146" height="46" rx="3" fill="#f8dede" stroke="#8b0000" stroke-width="3"/>
+<text class="tb" x="1063" y="819" text-anchor="middle">"Where's my spec?"</text>
+<text class="ts" x="1063" y="835" text-anchor="middle">said with rising panic</text>
+
+<text class="ts" x="1156" y="796">"Oh, it was a guess"</text>
+<text class="ts" x="1156" y="814">"Oh, nobody measured it"</text>
+<text class="ts" x="1156" y="832">"Oh, I never verified"</text>
+
+<polygon points="1300,860 1360,860 1388,888 1388,916 1360,944 1300,944 1272,916 1272,888" fill="#fdeaea" stroke="#cc1111" stroke-width="3"/>
+<text class="tb" x="1330" y="896" text-anchor="middle">WIPE</text>
+<text class="ts" x="1330" y="912" text-anchor="middle">go stand up</text>
+<text class="ts" x="1330" y="925" text-anchor="middle">a dataset  17</text>
+
+<line class="er" x1="424" y1="723" x2="452" y2="723" marker-end="url(#ar)"/>
+<line class="e" x1="514" y1="746" x2="514" y2="798" marker-end="url(#a)"/>
+<text class="lbl" x="518" y="776">No</text>
+<path class="e" d="M454 823 L432 823 L432 760 L426 760" marker-end="url(#a)"/>
+<line class="e" x1="574" y1="723" x2="612" y2="723" marker-end="url(#a)"/>
+<text class="lbl" x="578" y="718">Yes</text>
+<line class="e" x1="764" y1="723" x2="808" y2="723" marker-end="url(#a)"/>
+<line class="e" x1="880" y1="746" x2="880" y2="798" marker-end="url(#a)"/>
+<text class="lbl" x="884" y="776">Yes</text>
+<line class="e" x1="950" y1="823" x2="988" y2="823" marker-end="url(#a)"/>
+<text class="lbl" x="954" y="818">still?!</text>
+<path class="e" d="M1136 810 L1150 810"/>
+<path class="e" d="M1286 792 L1310 792 L1310 858" marker-end="url(#a)"/>
+<path class="e" d="M1290 810 L1310 810"/>
+<path class="e" d="M1276 828 L1310 828"/>
+<path class="e" d="M950 723 L968 723 L968 668 L800 668 L800 505 L700 505 L700 492" marker-end="url(#a)"/>
+<text class="lbl" x="830" y="663">No — back to the grind</text>
+
+<circle cx="1186" cy="916" r="46" fill="#ffffff" stroke="#1f3f8b" stroke-width="2.5"/>
+<text class="t" x="1186" y="912" text-anchor="middle">"Not my</text>
+<text class="t" x="1186" y="927" text-anchor="middle">fault"</text>
+<line class="e" x1="1272" y1="916" x2="1234" y2="916" marker-end="url(#a)"/>
+
+<circle cx="118" cy="880" r="54" fill="#f4f4f4" stroke="#999" stroke-width="2"/>
+<text class="ts" x="118" y="866" text-anchor="middle">Why are you</text>
+<text class="ts" x="118" y="881" text-anchor="middle">reading this</text>
+<text class="ts" x="118" y="896" text-anchor="middle">instead of the</text>
+<text class="ts" x="118" y="911" text-anchor="middle">error message?</text>
+
+<rect x="16" y="640" width="240" height="150" rx="3" fill="#ffffff" stroke="#333" class="n"/>
+<text class="tb" x="136" y="662" text-anchor="middle">IF YOU READ NOTHING ELSE</text>
+<text class="ts" x="28" y="685">Specify the WHAT fully.</text>
+<text class="ts" x="28" y="702">Specify the HOW only where</text>
+<text class="ts" x="28" y="715">you actually know.</text>
+<text class="ts" x="28" y="735">Always specify how the WORK</text>
+<text class="ts" x="28" y="748">runs — that one's free.</text>
+<text class="ts" x="28" y="768">Never let the maker decide</text>
+<text class="ts" x="28" y="781">that it's finished.</text>
+<line class="e" x1="100" y1="490" x2="100" y2="638" marker-end="url(#a)"/>
+
+<text class="hand" x="196" y="566" transform="rotate(-4 196 566)">the whole game is</text>
+<text class="hand" x="196" y="586" transform="rotate(-4 196 586)">right here, honestly</text>
+<path class="e" d="M186 600 L146 626" stroke="#333"/>
+
+<text class="ts" x="16" y="966">How To Talk To Claude — the one-page chart. Numbers are rule references in README.md.</text>
+</svg>

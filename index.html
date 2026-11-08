@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How To Talk To Claude</title>
+<meta name="description" content="50 rules for getting the most out of an AI coding agent, each with the mechanism behind it, plus an interactive map of 1,800 rules mined from the research.">
+<style>
+:root{--bg:#0a0a0f;--panel:#13121b;--line:#2a2638;--ink:#e9e6f2;--dim:#9a94ad;--purple:#b46cff;--green:#3dff8f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif}
+a{color:var(--green)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+.kicker{font:600 13px/1 ui-monospace,Consolas,monospace;color:var(--green);letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:clamp(36px,7vw,64px);line-height:1.05;margin:14px 0 18px;letter-spacing:-.02em}
+h1 span{color:var(--purple)}
+.lede{font-size:clamp(17px,2.4vw,20px);color:var(--dim);max-width:680px;margin:0}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid var(--purple)}
+.btn.primary{background:var(--purple);color:#0a0a0f}
+.btn.ghost{color:var(--ink)}
+.btn:hover{filter:brightness(1.15)}
+section{padding:48px 0;border-bottom:1px solid var(--line)}
+h2{font-size:26px;margin:0 0 6px}
+.sub{color:var(--dim);margin:0 0 24px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;text-decoration:none;color:var(--ink);display:block;transition:border-color .15s}
+.card:hover{border-color:var(--purple)}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--dim);font-size:15px}
+.card .tag{font:600 12px ui-monospace,Consolas,monospace;color:var(--green);display:block;margin-bottom:10px}
+.preview{display:block;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:8px}
+.preview img{display:block;width:100%;height:auto;background:#fff}
+.surfaces{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;counter-reset:s}
+.surf{border-left:3px solid var(--purple);padding:4px 0 4px 14px}
+.surf b{display:block}
+.surf span{color:var(--dim);font-size:14px}
+blockquote{margin:0;padding:20px 24px;background:var(--panel);border-left:3px solid var(--green);border-radius:0 12px 12px 0;color:var(--ink)}
+footer{padding:32px 0 56px;color:var(--dim);font-size:14px}
+code{font-family:ui-monospace,Consolas,monospace;color:var(--green)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="kicker">MiniDraco · field notes</div>
+    <h1>How To Talk<br>To <span>Claude</span></h1>
+    <p class="lede">50 rules for getting real work out of an AI coding agent. They come from 80+ shipped projects, and each one says what to do, <em>why it works</em>, and what it sounds like when you say it. If a rule can't explain how it works, it's left out.</p>
+    <div class="cta">
+      <a class="btn primary" href="map.html">Open the Rule Map →</a>
+      <a class="btn ghost" href="https://github.com/MiniDraco/how-to-talk-to-claude/blob/main/README.md">Read the 50 rules</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Start somewhere</h2>
+    <p class="sub">Four ways in, depending on what you need right now.</p>
+    <div class="cards">
+      <a class="card" href="map.html"><span class="tag">interactive</span><h3>The Rule Map</h3><p>1,800 rules mined from LLM research papers, grouped into the seven control surfaces. Pan, zoom, search, and filter, all offline.</p></a>
+      <a class="card" href="https://github.com/MiniDraco/how-to-talk-to-claude/blob/main/START-HERE.md"><span class="tag">flowchart</span><h3>Start Here</h3><p>The rules arranged by situation. Find the spot you're stuck in and use the move listed for it.</p></a>
+      <a class="card" href="https://github.com/MiniDraco/how-to-talk-to-claude/blob/main/MAP.md"><span class="tag">synthesis</span><h3>The Map</h3><p>The seven surfaces you actually control, checked against Anthropic's published guidance.</p></a>
+      <a class="card" href="https://github.com/MiniDraco/how-to-talk-to-claude/blob/main/DEV-CYCLE.md"><span class="tag">lifecycle</span><h3>The Dev Cycle</h3><p>Idea to shipped in nine phases, with the failure each phase prevents and the five feedback loops.</p></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The seven control surfaces</h2>
+    <p class="sub">Every rule acts on one of these. Each one breaks in its own way if you leave it unmanaged.</p>
+    <div class="surfaces">
+      <div class="surf"><b>Intent</b><span>Altitude, the standard, and honest uncertainty</span></div>
+      <div class="surf"><b>Context</b><span>A budget, not a bucket</span></div>
+      <div class="surf"><b>Persistence</b><span>The enforcement ladder, from prompt up to hook</span></div>
+      <div class="surf"><b>Comprehension</b><span>The only layer that upgrades <em>you</em></span></div>
+      <div class="surf"><b>Process</b><span>How the work runs</span></div>
+      <div class="surf"><b>Verification</b><span>Split the maker from the judge</span></div>
+      <div class="surf"><b>Termination</b><span>The layer nobody writes</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The one-page chart</h2>
+    <p class="sub">The whole system on one sheet, colour-coded by function, with the failure cascade drawn in.</p>
+    <a class="preview" href="THE-CHART.svg"><img src="THE-CHART.svg" alt="One-page flowchart of the prompting rules, colour-coded by function" loading="lazy"></a>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The one-paragraph version</h2>
+    <p class="sub">If you only read one thing.</p>
+    <blockquote>Write all three parts: what you want and to what standard, how the work should run, and who decides when it's done. Be maximally prescriptive about the second (fan out, loop, verify), because that needs no domain expertise and the defaults are weak. Before it builds, make it map the system and explain the plan back until you understand it. Then take the grading away from the maker: a separate harsh critic, judging blind, against a real reference. State the stop condition as a loop-until, pair an unreachable bar with a budget, and say plainly that you'd rather see an ambitious failure than a safe median success.</blockquote>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Built by <a href="https://github.com/MiniDraco">MiniDraco</a>. This is a living document: new rules are added as sessions earn them.
+    The Rule Map comes from the free, keyless harvester in <code>engine/</code>. Rules there are written in original phrasing, with citations to the source papers; see <a href="https://github.com/MiniDraco/how-to-talk-to-claude/blob/main/engine/LICENSING.md">LICENSING</a>.
+  </div>
+</footer>
+</body>
+</html>
